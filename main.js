@@ -1,8 +1,12 @@
 // Script to open and close sidebar
-function w3_open() {
-  document.getElementById("mySidebar").style.display = "block";
-}
+// function open() {
+//   document.getElementById("sidebar").style.display = "block";
+// }
+//
+// function close() {
+//   document.getElementById("sidebar").style.display = "none";
+// }
+function open() {
+  document.getElementById("sidebar").classList.toggle("active");
 
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
 }
